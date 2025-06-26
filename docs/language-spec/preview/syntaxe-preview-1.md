@@ -21,7 +21,7 @@ const       → Declares an unchangeable variable
 struct      → Creates a custom data type with named fields
 
 === OPERATORS ===
-+  -  *  /        → Arithmetic (add, subtract, multiply, divide)
+\+  \-  \*  /        → Arithmetic (add, subtract, multiply, divide)
 ==               → Checks if two values are equal (can use `is`)
 !=               → Checks if values are different
 <  >  <=  >=     → Compare size or order
