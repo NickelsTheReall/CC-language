@@ -13,9 +13,9 @@ else        → Executes alternate code when "if" condition is false
 while       → Repeats a block of code while a condition remains true
 for         → Repeats code using a counter or iteration range
 return      → Ends a function and sends back a value
-print       → Outputs a message to the console
+printC       → Outputs a message to the console
 match       → Pattern-based branching based on exact values
-use         → Imports a module or file
+$use         → Imports a module or file
 fun         → Declares a function (alias for clarity)
 const       → Declares an unchangeable variable
 struct      → Creates a custom data type with named fields
@@ -42,11 +42,11 @@ fun add(a: int, b: int) → int {
 match statement:
 match value {
   case 0:     // Execute if value is 0
-    print("Zero")
+    printC("Zero")
   case 1:
-    print("One")
+    printC("One")
   else:
-    print("Other")
+    printC("Other")
 }
 
 struct definition:
@@ -67,7 +67,7 @@ Multi-line :  /* This is a block comment */
 - PascalCase for struct names (e.g. UserProfile)
 - Semicolons are optional (used only if multiple expressions on one line)
 - No header files or includes; use `use` for modules
-- Files typically use the `.ccx` extension
+- Files typically use the `.ccla` extension
 
 === ADVANCED CONCEPTS ===
 Lambda:  (x, y) => x + y   → Anonymous inline function
