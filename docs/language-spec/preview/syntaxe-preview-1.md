@@ -58,55 +58,44 @@ struct      → Creates a custom data type with named fields
 
 === SYNTAX ===
 
-`cc
-fun function_name(param1: type, param2: type) → return_type {
-
-  // Function body
-  
-}
+`
+fun function_name(param1: type, param2: type) → return_type { 
+  // Function body 
+} 
 `
 
 Example:
 
-`cc
-fun add(a: int, b: int) → int {
-
-  return a + b
-  
+`
+fun add(a: int, b: int) → int { 
+  return a + b; 
 }
 `
 
 match statement:
 
 `
-match value {
-
-  case 0:     // Execute if value is 0
-  
-    printC("Zero")
-    
-  case 1:
-  
-    printC("One")
-    
-  else:
-  
-    printC("Other")
-    
+match value { 
+  case 0: 
+    printC("Zero"); 
+  case 1: 
+    printC("One"); 
+  else: 
+    printC("Other");
 }
 `
 
 struct definition:
 `
 struct Person {
-  name: string
+  name: string, 
   age: int
 }
 `
 
 const definition:
 `
-const max_score = 100
+const max_score = 100;
 `
 
 === COMMENTS ===
